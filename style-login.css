@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/*tags*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+span{
+   
+    font-family: 'Poppins', sans-serif;
+    color:rgb(99, 110, 110);
+}
+body{
+    overflow-x: hidden;
+}
+
+/*class*/
+.navbar{
+    
+    border-radius: 0;
+    background-image: linear-gradient(to left ,#bfceed,#f0f3fb,#f0f3fb,#fcfcfe,#f1f4fb);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    border-radius: 100px;
+}
+.Header_sec
+{  
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif;
+     height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:/* linear-gradient(to left top, #3f4441, #ad9d9d9b),*/ url("img/Header1.jpg");
+}
+.dropdown-item{
+    background-color: transparent;
+   
+}
+.color{
+    color:rgb(67, 99, 128);
+}
+
+ 
+/*.current{
+    margin:0 5px;
+    border-top: 2px solid #eee42a;
+    border-left:2px solid #eee42a;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    background-image:linear-gradient(#e6de57,#f9ffec, #fcfcfa);
+}*/
+  
+.Header_logo{
+   /* padding-top: 10px;*/
+    height:50px;
+}
+
+.h3{
+    padding-top: 30px;
+    padding-left:20px;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(#28c528 ,#27b927 ,#31f031 ,#089ea3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h11{
+    margin: 65vh 0 0;
+}
+
+
+footer{
+    height: 60vh;
+    background-image: linear-gradient( to left ,#194f8d98, #70f7bf9f);
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-size:70px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px 4px  rgb(57, 58, 57);
+}
+.title2{
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    font-weight: 250;
+    color: rgb(130, 131, 127);
+    text-shadow: 2px 2px 4px  rgb(233, 236, 233);
+}
+ .title3{
+     padding-top: 25px;
+    font-weight: 450;
+    color: rgb(80, 80, 80);
+    text-shadow: 2px 2px 4px  rgb(188, 189, 186);
+ }
+ .title4{
+     padding-top:30px;
+    font-weight: 400;
+    font-size:17px;
+    color: rgb(70, 70, 70);
+    text-shadow: 2px 2px 4px  rgb(99, 99, 99);
+ }
+
+.icons{
+    padding-left: 43%;
+    padding-top:30px;
+    margin-left: auto;
+  margin-right: auto;
+}
+.icon{
+    padding: 7px;
+}
+/*log*/
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  @media  (max-width:600px) {
+
+   
+    .current{
+        padding-left: 1px;
+        width: 25%;
+        margin:0 2px;
+        border-left:4px solid #7dff63;
+        background-image:linear-gradient(to left,#adeefab2,#80d17fa1);
+    }
+ 
+    
+    .h11{
+        margin: 20vh 0 0;
+    }
+    
+      
+}
+
+
+@media (max-width:1000px) and (min-width:250px){
+    
+    footer{
+        height: 60vh;
+        background-image: linear-gradient( to left ,#264972c0, #b36e07b0);
+    }
+    .title{
+        font-family: 'Dancing Script', cursive;
+        font-size:50px;
+        font-weight: 700;
+        color: white;
+        text-shadow: 3px 3px 4px  rgb(57, 58, 57);
+    }
+    .title2{
+        word-spacing: 7px;
+        letter-spacing: 3px;
+        font-weight: 250;
+        color: rgb(188, 189, 186);
+        text-shadow: 2px 2px 4px  rgb(57, 58, 57);
+    }
+     .title3{
+         padding-top: 25px;
+         font-size: 16px;
+        font-weight: 450;
+        white-space: nowrap;
+        color: rgb(80, 80, 80);
+        text-shadow: 2px 2px 4px  rgb(188, 189, 186);
+     }
+     .title4{
+         padding-top:15px;
+        font-weight: 400;
+        font-size:17px;
+        color: rgb(70, 70, 70);
+        text-shadow: 2px 2px 4px  rgb(99, 99, 99);
+     }
+    
+    .icons{
+        padding-left: 23%;
+        padding-top:30px;
+        margin-left: auto;
+      margin-right: auto;
+    }
+    .icon{
+        padding: 7px;
+    }
+    
+    
+}
